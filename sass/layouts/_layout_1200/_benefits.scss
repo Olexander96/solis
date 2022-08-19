@@ -1,0 +1,21 @@
+.benefits {
+
+    .container {
+        padding: 120px 15px 0;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 310px 310px;
+
+        div {
+            padding: 50px 35px;
+
+            h3 {
+                max-width: 480px; 
+                font-size: 40px;
+            }
+
+            p {
+                max-width: 500px; 
+            }
+        }
+    }
+}

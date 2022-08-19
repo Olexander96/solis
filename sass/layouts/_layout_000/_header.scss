@@ -1,0 +1,67 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    background: linear-gradient(270deg, rgba(22, 25, 38, 0.5) 0%, rgba(22, 25, 38, 0) 24.1%, rgba(22, 25, 38, 0) 47.19%), rgba(22, 25, 38, 0.02);
+    backdrop-filter: blur(9px);
+    
+    .container {
+        padding: 28px 15px;
+        display: flex;
+        flex-direction: column;
+
+        .company-logo {
+            width: 107px;
+            height: 32px;
+            margin-bottom: 30px;/*0*/
+        }
+
+        .header-nav {
+
+            .menu {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Lato', 'Arial', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                letter-spacing: 0.08em;
+
+                &__item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    cursor: pointer;
+
+                    a {
+                        text-decoration: none;
+                        color: $white;
+                    }
+
+                    a:visited {
+                        color: $white;
+                    }
+                }
+
+                &__item:after {
+                    display: block;
+                    content: '';
+                    width: 100%;
+                    height: 3px;
+                    background: transparent;
+                    opacity: 0.3;
+                    margin-top: 7px;
+                }
+
+                &__item:hover:after {
+                    background: linear-gradient(96.73deg, #53F3CD 6.73%, rgba(83, 243, 205, 0) 116.9%);
+                }
+
+                &__item:not(:last-child) {
+                    margin-bottom: 30px;/*right*/
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+.info {
+
+    .container {
+        padding: 45px 15px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-image: url('../img/info-image.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+
+        .info-right {
+            display: flex;
+            flex-direction: column;
+            padding: 45px 0;
+            background: #161926;
+            opacity: 0.9;
+
+            &__list {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 20px;
+                margin-bottom: 25px;
+            }
+
+            &__item {
+                
+
+                h3 {
+                    font-family: 'Playfair Display', 'Arial', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 45px;
+                    text-align: center;
+                    color: $white;
+                    margin-bottom: 27px;
+
+                i {
+                    font-size: 40px; 
+                }
+
+                }
+
+                p {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-family: 'Lato', 'Arial', sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    text-align: center;
+                    color: $white;
+                    opacity: 0.8;
+                }
+
+            }
+
+            &__item:not(:last-child) {
+                margin-bottom: 30px;
+
+                p:after {
+                    display: block;
+                    content: '';
+                    width: 100px;
+                    border: 1px solid $aquaSilver;
+                    margin-top: 43px;
+                }
+            }
+
+            &__text {
+                display: flex;
+                flex-direction: column;
+                max-width: 400px;
+
+                .main-text {
+                    margin-bottom: 50px;
+
+                    p {
+                        font-family: 'Lato', 'Arial', sans-serif;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 26px;
+                        color: $white;
+                        opacity: 0.8;
+                    }
+    
+                    p:not(:last-child) {
+                        margin-bottom: 45px;
+                    }
+                }
+
+                a {
+                    position: relative;
+                    display: flex;
+                    width: 182px;
+                    min-height: 24px;
+                    text-transform: uppercase;
+                    font-family: 'Lato', 'Arial', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    letter-spacing: 0.08em;
+                    text-decoration: none;
+                    color: $aquaWhite;
+                }
+        
+                a:before {
+                    position: absolute;
+                    content: '';
+                    display: block;
+                    width: 172px;
+                    height: 13px;
+                    right: 0;
+                    bottom: 0;
+                    background-color: $aquaWhite;
+                    opacity: 0.3;
+                }
+        
+                a:hover {
+                    color: $aquaDark;
+                }
+                a:hover:before {
+                    background-color: $aquaDark;
+                }
+            }
+        }
+    }
+}

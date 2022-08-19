@@ -1,0 +1,27 @@
+.quote {
+    padding-top: 120px;
+
+    .container {
+        padding: 0 15px;
+    }
+
+    &__solis-group {
+        padding: 100px 160px;
+
+        p {
+            font-size: 32px;
+            line-height: 46px;
+        }
+
+        span {
+            font-size: 20px;
+        }
+
+        img {
+            top: 74px;
+            left: 101px;
+            width: 100px;
+            height: 81px;
+        }
+    }
+}

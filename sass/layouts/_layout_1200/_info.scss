@@ -1,0 +1,26 @@
+.info {
+
+    .container {
+        background-size: 50% 100%;
+
+        .info-right {
+            flex-direction: row;
+
+            &__list {
+                padding: 0 56px;
+                margin-bottom: 0;
+            }
+
+            &__item {
+                
+                h3 {
+                    font-size: 68px;
+                }
+            }
+
+            &__item:not(:last-child) {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}

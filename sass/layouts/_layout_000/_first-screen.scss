@@ -1,0 +1,72 @@
+.first-screen {
+    width: 100%;
+    padding: 500px 0 50px;
+
+    .container {
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-family: 'Playfair Display', 'Arial', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 52px;
+            color: $white;
+            max-width: 523px; 
+            margin-bottom: 20px;
+
+            .italic-font {
+                font-style: italic;
+                color: $blue;
+            }
+        }
+
+        p {
+            font-family: 'Lato', 'Arial', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 26px;
+            color: $white;
+            opacity: 0.8;
+            max-width: 439px;
+            margin-bottom: 50px;
+        }
+
+        a {
+            position: relative;
+            display: flex;
+            width: 122px;
+            min-height: 24px;
+            text-transform: uppercase;
+            font-family: 'Lato', 'Arial', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+            color: $aquaWhite;
+        }
+
+        a:before {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 112px;
+            height: 13px;
+            right: 0;
+            bottom: 0;
+            background-color: $aquaWhite;
+            opacity: 0.3;
+        }
+
+        a:hover {
+            color: $aquaDark;
+        }
+        a:hover:before {
+            background-color: $aquaDark;
+        }
+    }
+}

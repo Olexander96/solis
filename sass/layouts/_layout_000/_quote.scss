@@ -1,0 +1,48 @@
+.quote {
+    padding-top: 50px;
+
+    .container {
+        padding: 0 15px;
+    }
+
+    &__solis-group {
+        position: relative;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url('../img/quote-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        p {
+            font-family: 'Lato', 'Arial', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 35px;
+            letter-spacing: 0.04em;
+            color: $white;
+            max-width: 710px;
+            margin-bottom: 40px;
+        }
+
+        span {
+            font-family: 'Playfair Display';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.08em;
+            color: $white;
+        }
+
+        img {
+            position: absolute;
+            top: 35px;
+            left: 50px;
+            width: 50px;
+            height: 40px;
+        }
+    }
+}
