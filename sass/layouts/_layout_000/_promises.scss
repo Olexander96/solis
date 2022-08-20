@@ -1,0 +1,132 @@
+.promises {
+    padding-top: 50px;
+
+    .container {
+        padding: 45px 15px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-image: url('../img/promises-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    &__right {
+        background: $darkBlue;
+        opacity: 0.9;
+        padding: 20px 0 20px 15px;
+        display: flex;
+        flex-wrap: wrap;
+
+        div:not(:last-child) {
+            margin-bottom: 70px;
+        }
+
+        .fist-element {
+            
+            &__item {
+
+                h3 {
+                    font-family: 'Playfair Display', 'Arial', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: $white;
+                    margin-bottom: 23px;
+                }
+
+                p {
+                    font-family: 'Lato', 'Arial', sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: $white;
+                    opacity: 0.8;
+                    max-width: 300px;
+                }
+            }
+
+            &__item:not(:last-child) {
+                margin-bottom: 70px;
+            }
+        }
+
+        .second-element {
+
+            div:not(:last-child) {
+                margin-bottom: 70px;
+            }
+
+            &__item {
+
+                h3 {
+                    font-family: 'Playfair Display', 'Arial', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: $white;
+                    margin-bottom: 23px;
+                }
+
+                p {
+                    font-family: 'Lato', 'Arial', sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: $white;
+                    opacity: 0.8;
+                }
+            }
+
+            &__link {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 90px;
+                width: 250px;
+                border: 1px solid $blueSilver;
+
+                a {
+                    position: relative;
+                    display: flex;
+                    width: 122px;
+                    min-height: 24px;
+                    text-transform: uppercase;
+                    font-family: 'Lato', 'Arial', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    letter-spacing: 0.08em;
+                    text-decoration: none;
+                    color: $aquaWhite;
+                    
+                    &:before {
+                        position: absolute;
+                        content: '';
+                        display: block;
+                        width: 112px;
+                        height: 13px;
+                        right: 0;
+                        bottom: 0;
+                        background-color: $aquaWhite;
+                        opacity: 0.3;
+                    }
+                }
+            }
+
+            &__link:hover {
+                border-color: $aquaDark;
+            }
+
+            &__link:hover a {
+                color: $aquaDark;
+            }
+            &__link:hover a:before {
+                background-color: $aquaDark;
+            }
+        }
+    }
+}
