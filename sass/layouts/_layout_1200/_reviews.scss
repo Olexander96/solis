@@ -1,0 +1,28 @@
+.reviews {
+    padding-top: 120px;
+
+    .container {
+        padding: 0 15px 100px 15px;
+    }
+
+    &__heading {
+
+        p {
+            max-width: 400px;
+        }
+    }
+
+    &__list {
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 370px;
+        max-height: 340px;
+        padding: 30px 40px;
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+}

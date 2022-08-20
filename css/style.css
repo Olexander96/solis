@@ -520,8 +520,8 @@ body {
 }
 .video__tablet .screen .icon {
   position: absolute;
-  width: 35px;
-  height: 35px;
+  width: 15px;
+  height: 15px;
   fill: #FFFFFF;
   z-index: 1;
 }
@@ -666,6 +666,86 @@ body {
   background-color: #02E0AB;
 }
 
+.reviews {
+  padding-top: 50px;
+}
+.reviews .container {
+  padding: 0 15px 50px 15px;
+  border-bottom: 1px solid #515773;
+}
+.reviews__heading {
+  margin-bottom: 50px;
+}
+.reviews__heading h2 {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+.reviews__heading h2 .italic-font {
+  font-style: italic;
+  color: #689FF2;
+}
+.reviews__heading p {
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  max-width: none;
+}
+.reviews__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.reviews__item {
+  max-width: 370px;
+  max-height: none;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reviews__item p {
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-bottom: 26px;
+}
+.reviews__item span {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+}
+.reviews__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.reviews__item:nth-of-type(1) {
+  background-image: url("../img/reviews-first-bg.jpg");
+}
+.reviews__item:nth-of-type(2) {
+  background-image: url("../img/reviews-second-bg.jpg");
+}
+.reviews__item:nth-of-type(3) {
+  background-image: url("../img/reviews-third-bg.jpg");
+}
+
 @media only screen and (min-width: 1200px) {
   .header .container {
     flex-direction: row;
@@ -764,6 +844,10 @@ body {
     width: 120px;
     height: 120px;
   }
+  .video__tablet .screen .icon {
+    width: 35px;
+    height: 35px;
+  }
   .video__tablet .tablet-button {
     width: 35px;
     height: 35px;
@@ -797,6 +881,26 @@ body {
   }
   .promises__right .second-element__link {
     width: 300px;
+  }
+  .reviews {
+    padding-top: 120px;
+  }
+  .reviews .container {
+    padding: 0 15px 100px 15px;
+  }
+  .reviews__heading p {
+    max-width: 400px;
+  }
+  .reviews__list {
+    justify-content: space-between;
+  }
+  .reviews__item {
+    max-width: 370px;
+    max-height: 340px;
+    padding: 30px 40px;
+  }
+  .reviews__item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
