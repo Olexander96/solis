@@ -1,26 +1,25 @@
 .header {
-    
+    top: 30px;
     .container {
         flex-direction: row;
         justify-content: space-between;
-
-        .company-logo {
-            margin-bottom: 0px;/*0*/
-        }
+        align-items: flex-end;
 
         .header-nav {
 
+            .menu-button {
+                display: none;
+            }
+
             .menu {
                 flex-direction: row;
-                align-items: flex-start;
+                align-items: center;
 
                 &__item:not(:last-child) {
                     margin-right: 30px;/*right*/
                     margin-bottom: 0;
                 }
             }
-
-            
         }
     }
 }

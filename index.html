@@ -18,6 +18,12 @@
         <div class="container">
             <img class="company-logo" src="img/logo.svg"  alt="company-logo">
             <nav class="header-nav">
+                <button class="menu-button">
+                    <span class="menu-button__item"></span>
+                    <span class="menu-button__item"></span>
+                    <span class="menu-button__item"></span>
+                    <span class="menu-button__item"></span>
+                </button>
                 <ul class="menu">
                     <li class="menu__item"><a href="#">Home</a></li>
                     <li class="menu__item"><a href="#">About</a></li>
@@ -194,10 +200,37 @@
                 </ul>
             </div>
         </section>
+        <section class="contact">
+            <div class="container">
+                <div class="contact__text">
+                    <h2>Contact <span class="italic-font">our sales team</span></h2>
+                    <p>Our team is happy to answer your sales questions. Fill out the form 
+                        and we’ll be in touch as soon as possible.
+                    </p>
+                </div>
+                <form class="contact__form" action="#" method="post">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Tell more">
+                    <button type="button">send request</button>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="footer">
-
+        <div class="container">
+            <span class="footer__item">© 2020 Solisgroup. All Rights Reserved.</span>
+            <div class="footer__item">
+                <span>made by </span>
+                <a href="#">Zgraya.digital</a>
+            </div>
+            
+            <div class="footer__item">
+                <a href="#">User Agreement</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
     </footer>
-    
+    <script src="./js/script.js"></script>
 </body>
 </html>

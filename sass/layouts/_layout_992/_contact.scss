@@ -1,0 +1,21 @@
+.contact {
+    padding-top: 60px;
+
+    .container {
+        padding: 0 15px 100px 15px;
+        flex-direction: row;
+    }
+
+    &__text {
+        margin-bottom: 0;
+    }
+
+    &__form {
+        width: 470px;
+        align-items: flex-start;
+
+        .button {
+            margin: 0px;
+        }
+    }
+}

@@ -1,0 +1,120 @@
+.contact {
+    padding-top: 30px;
+
+    .container {
+        padding: 0 15px 50px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid $blueSilver;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+
+        h2 {
+            font-family: 'Playfair Display', 'Arial', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 39px;
+            color: $white;
+            margin-bottom: 29px;
+
+            .italic-font {
+                font-style: italic;
+                color: $blue;
+            }
+        }
+
+        p {
+            font-family: 'Lato', 'Arial', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 26px;
+            color: $white;
+            opacity: 0.8;
+            max-width: 470px;/*навпаки*/
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        input {
+            min-height: 32px;
+            padding-bottom: 12px;
+            border: none;
+            border-radius: 0px;
+            background-color: transparent;
+            border-bottom: 1px solid rgba($color: $white, $alpha: 0.1);
+            font-family: 'Playfair Display', 'Arial', sans-serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: 0.08em;
+            color: $white;
+            opacity: 0.5;
+            width: 100%;
+            margin-bottom: 40px;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        input:focus::placeholder {
+            opacity: 0;
+        }
+
+
+        button {
+            background: transparent;
+            border: none;
+            min-width: 190px;
+            min-height: 24px;
+            position: relative;
+            display: flex;
+            width: 122px;
+            min-height: 24px;
+            text-transform: uppercase;
+            font-family: 'Lato', 'Arial', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+            color: $aquaWhite;
+            cursor: pointer;
+            
+            &:before {
+                position: absolute;
+                content: '';
+                display: block;
+                width: 163px;
+                height: 13px;
+                left: 17px;
+                bottom: 0;
+                background-color: $aquaWhite;
+                opacity: 0.3;
+            }
+        }
+
+        button:hover {
+            color: $aquaDark;
+        }
+        button:hover:before {
+            background-color: $aquaDark;
+        }
+    }
+}

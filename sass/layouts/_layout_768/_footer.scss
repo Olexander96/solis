@@ -1,0 +1,22 @@
+.footer {
+
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+
+        div {
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 0;
+
+            span {
+                margin-right: 12px;
+            }
+
+            a:not(:last-child) {
+                margin-right: 32px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

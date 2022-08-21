@@ -1,0 +1,31 @@
+.promises {
+    padding-top: 120px;
+
+    .container {
+        background-size: 50% 100%;
+    }
+
+    &__right {
+        flex-wrap: nowrap;
+        padding: 75px 0 75px 70px;
+
+        div:not(:last-child) {
+            margin-right: 100px;
+            margin-bottom: 0;
+        }
+
+        .fist-element {
+            max-width: 300px;
+            &__item {
+
+                p {
+                    max-width: 300px;
+                }
+            }
+        }
+
+        .second-element {
+            max-width: 300px;
+        }
+    }
+}
