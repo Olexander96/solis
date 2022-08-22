@@ -232,6 +232,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.08em;
+  overflow: auto;
 }
 .menu__item {
   display: flex;
@@ -998,6 +999,29 @@ body {
   }
 }
 @media only screen and (min-width: 768px) {
+  .header {
+    top: 30px;
+  }
+  .header .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header .container .header-nav .menu-button {
+    display: none;
+  }
+  .header .container .header-nav .menu {
+    flex-direction: row;
+    align-items: center;
+  }
+  .header .container .header-nav .menu__item:not(:last-child) {
+    margin-right: 30px; /*right*/
+    margin-bottom: 0;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
   .info .container {
     background-size: 570px 100%;
     justify-content: flex-end;
@@ -1143,29 +1167,6 @@ body {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .header {
-    top: 30px;
-  }
-  .header .container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  .header .container .header-nav .menu-button {
-    display: none;
-  }
-  .header .container .header-nav .menu {
-    flex-direction: row;
-    align-items: center;
-  }
-  .header .container .header-nav .menu__item:not(:last-child) {
-    margin-right: 30px; /*right*/
-    margin-bottom: 0;
-  }
-  .menu {
-    display: flex;
-    flex-direction: row;
-  }
   .benefits .container {
     padding: 120px 15px 0;
     grid-template-columns: 1fr 1fr;
