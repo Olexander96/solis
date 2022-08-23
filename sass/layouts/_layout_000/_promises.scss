@@ -5,7 +5,7 @@
         max-width: 1170px;
         padding: 45px 0;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         background-image: url('../img/promises-bg.jpg');
         background-repeat: no-repeat;
@@ -38,13 +38,7 @@
                 }
 
                 p {
-                    font-family: 'Lato', 'Arial', sans-serif;
-                    font-style: normal;
-                    font-weight: 300;
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: $white;
-                    opacity: 0.8;
+                    @include paragraph-text;
                 }
             }
 
@@ -72,13 +66,7 @@
                 }
 
                 p {
-                    font-family: 'Lato', 'Arial', sans-serif;
-                    font-style: normal;
-                    font-weight: 300;
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: $white;
-                    opacity: 0.8;
+                    @include paragraph-text;
                 }
             }
 
@@ -88,22 +76,16 @@
                 align-items: center;
                 justify-content: center;
                 min-height: 90px;
-                width: 100%;
+                max-width: 300px;
                 border: 1px solid $blueSilver;
+                margin: 0 auto;
 
                 a {
                     position: relative;
                     display: flex;
                     width: 122px;
                     min-height: 24px;
-                    text-transform: uppercase;
-                    font-family: 'Lato', 'Arial', sans-serif;
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 20px;
-                    letter-spacing: 0.08em;
-                    text-decoration: none;
-                    color: $aquaWhite;
+                    @include links;
                     
                     &:before {
                         position: absolute;

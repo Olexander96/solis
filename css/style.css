@@ -309,9 +309,11 @@ body {
   font-family: "Playfair Display", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
   font-size: 35px;
   line-height: 52px;
-  color: #FFFFFF;
   max-width: 523px;
   margin-bottom: 20px;
 }
@@ -410,9 +412,10 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
-  text-align: center;
+  line-height: 26px;
   color: #FFFFFF;
   opacity: 0.8;
+  line-height: 1;
 }
 .info .container .info-right__item:not(:last-child) {
   margin-bottom: 30px;
@@ -494,9 +497,10 @@ body {
   font-family: "Playfair Display", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 40px;
   line-height: 48px;
   color: #FFFFFF;
+  font-size: 35px;
   max-width: 100%;
   margin-bottom: 30px;
 }
@@ -626,9 +630,10 @@ body {
   font-family: "Playfair Display", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 40px;
+  line-height: 48px;
   color: #FFFFFF;
+  font-size: 35px;
   margin-bottom: 20px;
 }
 .video__text h2 .italic-font {
@@ -653,7 +658,7 @@ body {
   max-width: 1170px;
   padding: 45px 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   background-image: url("../img/promises-bg.jpg");
   background-repeat: no-repeat;
@@ -721,8 +726,9 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 90px;
-  width: 100%;
+  max-width: 300px;
   border: 1px solid #515773;
+  margin: 0 auto;
 }
 .promises__right .second-element__link a {
   position: relative;
@@ -774,7 +780,9 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
+  line-height: 48px;
   color: #FFFFFF;
+  line-height: 1;
   margin-bottom: 25px;
 }
 .reviews__heading h2 .italic-font {
@@ -810,8 +818,8 @@ body {
 .reviews__item p {
   font-family: "Lato", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 18px;
   line-height: 26px;
   color: #FFFFFF;
   opacity: 0.8;
@@ -858,8 +866,9 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 39px;
+  line-height: 48px;
   color: #FFFFFF;
+  line-height: 39px;
   margin-bottom: 29px;
 }
 .contact__text h2 .italic-font {
@@ -1070,6 +1079,7 @@ body {
   }
   .promises .container {
     background-size: 50% 100%;
+    justify-content: flex-end;
   }
   .promises__right {
     flex-wrap: nowrap;
@@ -1080,7 +1090,7 @@ body {
     margin-bottom: 0;
   }
   .promises__right .fist-element {
-    max-width: 300px;
+    min-width: 300px;
   }
   .promises__right .fist-element__item p {
     max-width: 300px;
@@ -1146,7 +1156,6 @@ body {
   }
   .video__text h2 {
     font-size: 40px;
-    line-height: 48px;
   }
   .contact {
     padding-top: 60px;
