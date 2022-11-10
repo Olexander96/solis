@@ -1,49 +1,22 @@
-Екзамен 1 — Простий вебсайт
+## :pushpin: Solis
+#### :memo: Description: 
 
-Вимоги до макета — Технічне завдання:
+Page of the trading company
+___
 
-- Ефекти :hover, :focus на ваш розсуд
+#### :link: Live Demo: 
+[Solis](https://olexander96.github.io/solis/)
 
-- Статичне (нефіксоване) меню
+[Design Figma](https://www.figma.com/file/hudgndtsHw2G7OznnZOVGA/Exam-1_variant-3?node-id=0%3A1)
+___
 
-Критерії:
+#### :rocket: Technologies Used
 
-- Валідний HTML/CSS
+* HTML
+* CSS/SASS 
+* methodology [BEM](https://en.bem.info/)
+___
 
-- Семантична верстка
-
-- Відповідність до шаблону (використати pixel perfect) з роздільною здатністю 1200 пікселів і вище:
-
-     - Блок bg повинен розтягнутися на всю ширину екрана
-
-     - Використовувати шрифти, як у шаблоні
-
-     - Можна використовувати фреймворки
-
-     - Дозволено використання Reset.css або normalize.css
-
-     - Підключити шрифти за допомогою Google Fonts
-
-- Кросбраузерна сумісність із Chrome, Firefox, Safari
-
-- Респонсивний макет
-
-- Усі інтерактивні елементи повинні мати стилі :hover, :focus
-
-- Використовувати фавікон
-
-- БЕЗ JS
-
-- Використовувати препроцесори
-
-Буде бонусом
-
-     - Використання SVG
-
-     - Іконки спрайтами або шрифтами
-
-     - Первинна валідація форми
-
-Варіанти макетів
-
-Варіант 3*: https://www.figma.com/file/hudgndtsHw2G7OznnZOVGA/Exam-1_variant-3 
+#### :envelope: Contacts
+* LinkedIn: [@oleksandr-sheiko](https://www.linkedin.com/in/oleksandr-sheiko-74094224a/)
+* Telegram: [@oleksandr-sheiko](https://t.me/oleksandrsheiko96)
